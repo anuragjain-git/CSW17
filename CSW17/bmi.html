@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <style>
+            .div {
+            width: 240px;
+            margin: auto;
+            margin-top: 33vh;
+            border: 1px solid #ccc;
+            padding: 30px;
+        }
+        input {
+            width: 100px;
+            margin-left: 5px;
+	    float:right;
+        }
+	
+    </style>
+</head>
+<body>
+    
+    <div class="div">
+
+        <label>Weight in kg</label><input type="number" id="w"><br><br>
+        <label>Height in meter</label><input type="number" id="h">
+        
+        <p id="message"></p>
+        <p id="health"></p>
+
+        <button class="btn">Check BMI</button>
+
+    </div>
+
+
+
+
+    <script src="jquery.js"></script>
+    <script src="bmi.js"></script>
+</body>
+</html>
